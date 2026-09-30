@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form - YOUR_LASTNAME</title>
+</head>
+<body>
+
+    <h1>HTML Form</h1>
+
+    <form action="#" method="post">
+        
+        <!-- Personal Information Section -->
+        <fieldset>
+            <legend>Personal Information</legend>
+            <p>
+                <label mortality for="full-name">Full Name:</label><br>
+                <input type="text" id="full-name" name="fullName" required>
+            </p>
+            <p>
+                <label for="email-address">Email Address:</label><br>
+                <input type="email" id="email-address" name="emailAddress" required>
+            </p>
+        </fieldset>
+
+        <!-- Gender Section -->
+        <fieldset>
+            <legend>Gender</legend>
+            <p>
+                <input type="radio" id="gender-male" name="gender" value="Male">
+                <label for="gender-male">Male</label><br>
+                
+                <input type="radio" id="gender-female" name="gender" value="Female">
+                <label for="gender-female">Female</label><br>
+                
+                <input type="radio" id="gender-other" name="gender" value="Other">
+                <label for="gender-other">Other</label>
+            </p>
+        </fieldset>
+
+        <!-- Hobbies Section -->
+        <fieldset>
+            <legend>Hobbies</legend>
+            <p>
+                <input type="checkbox" id="hobby-cooking" name="hobbies" value="Reading">
+                <label for="hobby-reading">Reading</label><br>
+
+                <input type="checkbox" id="hobby-hiking" name="hobbies" value="Reading">
+                <label for="hobby-reading">Reading</label><br>
+
+                <input type="checkbox" id="hobby-cycling" name="hobbies" value="Reading">
+                <label for="hobby-reading">Reading</label><br>
+                
+                <input type="checkbox" id="hobby-traveling" name="hobbies" value="Traveling">
+                <label for="hobby-traveling">Traveling</label><br>
+                
+                <input type="checkbox" id="hobby-sports" name="hobbies" value="Sports">
+                <label for="hobby-sports">Sports</label>
+            </p>
+        </fieldset>
+
+        <!-- Comments Section -->
+        <p>
+            <label for="user-comments">Comments:</label><br>
+            <textarea id="user-comments" name="userComments" rows="5" cols="40" placeholder="Type your comments here..."></textarea>
+        </p>
+
+        <!-- Submit Button Section -->
+        <p>
+            <button type="submit">Submit Form</button>
+        </p>
+
+    </form>
+
+</body>
+</html>
